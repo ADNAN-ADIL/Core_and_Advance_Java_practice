@@ -4,7 +4,7 @@ public class Exception_handling_with_try_catch {
         int i = 2;
         int j = 0;
 
-        int nums[] = new int[5];
+        int[] nums = new int[5];
         String str = null;
 
         try

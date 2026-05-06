@@ -18,7 +18,7 @@ public class try_with_resources {
         int num = 0;
 
 
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in));){
+        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
 //            br = new BufferedReader(new InputStreamReader(System.in));
             num = Integer.parseInt(br.readLine());
             System.out.println(num);

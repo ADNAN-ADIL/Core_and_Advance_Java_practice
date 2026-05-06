@@ -4,7 +4,7 @@ public class Array {
 //        int j=6;
 //        int k=7;
 //        int num[]= {5,6,7};
-        int nums[]=new int[4];
+        int[] nums =new int[4];
 //        int nums[] = {3,7,2,4};
         nums[0] = 4;
         nums[1] = 8;

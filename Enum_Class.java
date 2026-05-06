@@ -3,11 +3,11 @@ enum Laptop2{
     Macbook(2000), XPS(2200), Surface, Thinkpad(1800);
     private int price;
 
-    private Laptop2() {
+    Laptop2() {
         price = 500;
     }
 
-    private Laptop2(int price) {
+    Laptop2(int price) {
         this.price = price;
         System.out.println("in Laptop " + this.name());
     }

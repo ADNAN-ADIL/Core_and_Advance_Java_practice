@@ -15,7 +15,7 @@ public class enhanced_for_loop {
         s3.name = "Adnan";
         s3.marks = 75;
 
-        Student students[] = new Student[3];
+        Student[] students = new Student[3];
         students[0] = s1;
         students[1] = s2;
         students[2] = s3;

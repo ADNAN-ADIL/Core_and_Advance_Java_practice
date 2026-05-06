@@ -18,11 +18,11 @@ public class Exception_throw_keyword {
                 throw new AdilException("I don't want to print zero");
         }
         catch(AdilException e){
-            j = 18/1;
+            j = 18;
             System.out.println("that's default output " + e);
         }
         catch (ArithmeticException e){
-            j = 18/1;
+            j = 18;
             System.out.println("that is default output" + e);
 //            System.out.println("Cannot divide by zero");
         }

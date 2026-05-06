@@ -36,7 +36,7 @@ class AdvCalc1 extends Calc2
 
 
 public class Method_Overriding{
-    public static void main(String args[])
+    public static void main(String[] args)
     {
 //		B obj=new B();
 //		obj.show();
